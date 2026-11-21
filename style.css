@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(152, 185, 214);
+    color: rgb(59, 59, 167);
+    padding: 60px;
+}
+
+.container-principal {
+    width: 100%;
+    max-width: 810px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: brown;
+}
+
+.card-produto {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid wheat;
+    border-radius: 16px;
+    padding: 0;
+    box-shadow: 0 10px 20px black;
+    overflow: hidden;
+}
+
+.area-imagem {
+    background-color: aliceblue;
+    padding: 25px;
+    border-bottom: 2px solid white;
+}
+
+.area-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.area-detalhes {
+    padding: 30px;
+    text-align: center;
+}
+
+.area-detalhes h2 {
+    font-size: 1.5 rem;
+    margin-bottom: 12px;
+}
+
+.area-detalhes .descricao{
+    font-size: 0.9rem;
+    color: rgb(47, 29, 65);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.area-detalhes .preco {
+    font-size: 1.8 rem;
+    font-weight: bold;
+    color: rgb(46, 15, 129);
+    margin-bottom: 25px;
+}
+
+.butao-comprar {
+    width: 100%;
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3;
+}
+
+.butao-comprar:hover {
+    background-color: rgb(41, 2, 2);
+}
